@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        
+    <head>
+        <title>
+            Kloro WebSite
+        </title>
+    </head>
+    <h1>TEST</h1>
+
+    <select id="Menù" onchange="selezionaOpzione()">
+
+    <option value="Opzione1">Opzione 1</option>
+    <option value="Opzione2">Opzione 2</option>
+    </select>
+<script>
+    function selezionaOpzione() {
+        var menuSelect =
+        document.getElementById("Menù");
+        var scelta = menuSelect.value;
+        if (scelta === "Opzione1") {
+            alert("Hai selezionato la prima opzione");
+        }
+        else if (scelta === "Opzione2") {
+            alert("Hai selezionato la seconda opzione");
+        }
+    }
+</script>
+<br>
+<table>Text Area</table>
+    <textarea name="Test" id="1" cols="30" rows="10"></textarea>
+
+    </body>
+</html>
